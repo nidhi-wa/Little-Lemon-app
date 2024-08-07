@@ -1,0 +1,89 @@
+footer {
+    background-color: #ffffff;
+    color: #1e1e1e;
+    padding: 30px 30px;
+    font-family: 'Karla';
+  }
+
+  .footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .footer-container div {
+    max-width: 300px;
+    margin: 0 10px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+   align-items: start;
+   align-content: flex-start;
+  }
+  
+  .footer-container .logo {
+    width: 10rem;
+    height:auto;
+    margin-bottom: 10px;
+  }
+  
+  .footer-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  .footer h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  
+  .footer a {
+    font-size: 12pt;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Karla';
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #ffc107;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 0.875rem;
+  }
+  
+  @media (min-width: 786px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
